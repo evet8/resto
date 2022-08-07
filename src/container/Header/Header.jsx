@@ -8,9 +8,9 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper__info">
       <SubHeading title="Chase the new flavor" />
-      <h1 className="app__header-h1">The Key to Fine Dining</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <button type="button" className="custom__button">Explore Menu</button>
+      <h1 className="app__header-h1">Satisfy your cravings today!</h1>
+      <p className="p__opensans" style={{ margin: '2rem 0'}}>POUND is home to affordable luxurious burgers in the metro.</p>
+      <button type="button" className="custom__button">Book a Table</button>
     </div>
 
     <div className="app__header-img">
