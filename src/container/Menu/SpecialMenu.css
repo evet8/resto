@@ -1,0 +1,7 @@
+.app__menu {
+  background-color: var(--color-black);
+}
+
+.app__menu_img {
+text-align: center;
+}
