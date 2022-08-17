@@ -10,9 +10,6 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    {/* <Intro />
-    <Laurels />
-    <Gallery /> */}
     <FindUs />
     <Footer />
   </div>
