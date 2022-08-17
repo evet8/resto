@@ -11,7 +11,7 @@ const Footer = () => (
     <Newsletter />
 
         <div className="app__footer-links_icons">
-        <a href="https://www.facebook.com/POUNDBurgers" target="_blank" >  <FiFacebook /> </a>
+        <a href="https://www.facebook.com/POUNDBurgers" target="_blank" rel="noopener noreferrer" >  <FiFacebook /> </a>
           <a href="https://www.instagram.com/pound_ph/?hl=en" target="blank" > < FiInstagram /> </a>
         </div>
 

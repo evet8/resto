@@ -1,15 +1,14 @@
 import React from 'react';
-// import {Routes, Route, Navigate} from 'react-router-dom';
-import './admin/css/styles.css';
-import './admin/js/scripts';
+import '../profile/admin/css/styles.css';
+import '../profile/admin/js/scripts';
 
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 
-// import routes from '../../routes/routes'
+import routes from '../../routes/routes'
 
-const Dashboard = () => {
+const Reservations = () => {
     return (
       <div className="sb-nav-fixed">
           <Navbar />
@@ -22,7 +21,7 @@ const Dashboard = () => {
             <div id="layoutSidenav_content">
                 <main>
                   
- dashboard
+ reservations
                 </main>
                 <Footer />
             </div>
@@ -32,4 +31,4 @@ const Dashboard = () => {
     );
 }
 
-export default Dashboard;
+export default Reservations;

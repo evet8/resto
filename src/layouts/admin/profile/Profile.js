@@ -6,10 +6,12 @@ import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 
-import routes from '../../routes/routes'
+// import routes from '../../routes/routes'
 
-const Dashboard = () => {
+function Reservations() {
     return (
+
+      
       <div className="sb-nav-fixed">
           <Navbar />
           <div id="layoutSidenav">
@@ -21,7 +23,7 @@ const Dashboard = () => {
             <div id="layoutSidenav_content">
                 <main>
                   
- profile
+ Reservations
                 </main>
                 <Footer />
             </div>
@@ -31,4 +33,4 @@ const Dashboard = () => {
     );
 }
 
-export default Dashboard;
+export default Reservations;
