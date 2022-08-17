@@ -11,12 +11,12 @@ const Footer = () => (
     <Newsletter />
 
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiInstagram />
+        <a href="https://www.facebook.com/POUNDBurgers" target="_blank" >  <FiFacebook /> </a>
+          <a href="https://www.instagram.com/pound_ph/?hl=en" target="blank" > < FiInstagram /> </a>
         </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 2GE. All Rights reserved.</p>
+      <p className="p__opensans">2022 GGE. All Rights reserved.</p>
     </div>
 
   </div>

@@ -15,10 +15,10 @@ const Navbar = () => {
         <img src={images.pound} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><Link className="text-decoration-none link-light" to="#home">Home</Link></li>
-        <li className="p__opensans"><Link className="text-decoration-none link-light" to="#about">About</Link></li>
-        <li className="p__opensans"><Link className="text-decoration-none link-light" to="#menu">Menu</Link></li>
-        <li className="p__opensans"><Link className="text-decoration-none link-light" to="#contact">Contact</Link></li>
+        <li className="p__opensans"><a className="text-decoration-none link-light" href="#home">Home</a></li>
+        <li className="p__opensans"><a className="text-decoration-none link-light" href="#about">About</a></li>
+        <li className="p__opensans"><a className="text-decoration-none link-light" href="#menu">Menu</a></li>
+        <li className="p__opensans"><a className="text-decoration-none link-light" href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
         {/* <a to="#login" className="p__opensans">Log In / Register</a>
@@ -32,10 +32,10 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans"><Link to="#home">Home</Link></li>
-              <li className="p__opensans"><Link to="#about">About</Link></li>
-              <li className="p__opensans"><Link to="#menu">Menu</Link></li>
-              <li className="p__opensans"><Link to="#contact">Contact</Link></li>
+              <li className="p__opensans"><a to="#home">Home</a></li>
+              <li className="p__opensans"><a to="#about">About</a></li>
+              <li className="p__opensans"><a to="#menu">Menu</a></li>
+              <li className="p__opensans"><a to="#contact">Contact</a></li>
             </ul>
           </div>
         )}
